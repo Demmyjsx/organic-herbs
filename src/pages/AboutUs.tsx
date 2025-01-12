@@ -1,7 +1,7 @@
-import { Header } from "@/components/header"
-import { Footer } from "@/components/footer"
-import { AboutHero } from "../components/about-hero"
-import { AboutContent } from "@/components/about-content"
+import { Header } from '@/components/header';
+import { Footer } from '@/components/footer';
+import { AboutHero } from '../components/about-hero';
+import { AboutContent } from '@/components/about-content';
 
 export default function AboutPage() {
   return (
@@ -13,6 +13,5 @@ export default function AboutPage() {
       </main>
       <Footer />
     </div>
-  )
+  );
 }
-
