@@ -1,8 +1,9 @@
+import HeroPlant from "../assets/6.jpg"
 export function AboutHero() {
     return (
       <div className="relative h-[400px] overflow-hidden">
         <img
-          src="/about-hero.jpg"
+          src={HeroPlant}
           alt="Herbal plants"
           className="w-full h-full object-cover"
         />

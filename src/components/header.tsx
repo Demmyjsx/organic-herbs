@@ -151,12 +151,12 @@ const products = [
   {
     title: "Shilajit Dry Extract",
     description: "Pure and potent Shilajit extract sourced from the Himalayas.",
-    href: "/products/shilajit",
+    href: "/",
   },
   {
     title: "Herbal Extracts",
     description: "Wide range of natural herbal extracts and powders.",
-    href: "/products/herbal-extracts",
+    href: "/",
   },
   // Add more products as needed
 ]
