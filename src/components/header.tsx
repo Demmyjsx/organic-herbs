@@ -70,7 +70,7 @@ export function Header() {
                   </NavigationMenuLink>
                 </Link>
               {/* </NavigationMenuItem> */}
-              <Link to="/about" >
+              <Link to="/otherproducts" >
                   <NavigationMenuLink className={cn(
                     "px-4 py-2 hover:bg-green-700 rounded-md transition-colors"
                   )}>
@@ -108,6 +108,9 @@ export function Header() {
                    
                   </Link>
                 </div>
+
+
+
                 <div className="flex-1 overflow-y-auto">
                   <div className="flex flex-col p-4 space-y-3">
                     <Link 
@@ -135,6 +138,12 @@ export function Header() {
                       className="px-4 py-2 hover:bg-green-700 rounded-md transition-colors"
                     >
                       About Us
+                    </Link>
+                    <Link 
+                      to="/otherproducts"
+                      className="px-4 py-2 hover:bg-green-700 rounded-md transition-colors"
+                    >
+                      Other Products
                     </Link>
                     <Link 
                       to="/contact"
