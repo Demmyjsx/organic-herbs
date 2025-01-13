@@ -70,7 +70,13 @@ export function Header() {
                   </NavigationMenuLink>
                 </Link>
               {/* </NavigationMenuItem> */}
-              
+              <Link to="/about" >
+                  <NavigationMenuLink className={cn(
+                    "px-4 py-2 hover:bg-green-700 rounded-md transition-colors"
+                  )}>
+                    Other Products
+                  </NavigationMenuLink>
+                </Link>
               {/* <NavigationMenuItem> */}
                 <Link to="/contact" >
                   <NavigationMenuLink className={cn(

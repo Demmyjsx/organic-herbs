@@ -5,37 +5,37 @@ import {Link} from "react-router-dom"
 const products = [
   {
     title: "Ganoderma Dry Extract",
-    image: "src/assets/Ganoderma-Dry-Extract-11.jpg",
+    image: "/assets/Ganoderma-Dry-Extract-11.jpg",
     description: "ORGANICOS HERBAL FARM, are a leading supplier of Ganoderma dry extract in Indonesia, we are offering a huge range of...",
     href: "/products/ganoderma-dry-extract"
   },
   {
     title: "Vijasar Dry Extract",
-    image: "src/assets/Vijasar-Dry-Extract.jpg",
+    image: "/assets/Vijasar-Dry-Extract.jpg",
     description: "Vijaysar Known as the Indonesia kino tree or Malabar Kino, it is Found commonly in hilly regions of central and...",
     href: "/products/vijasar-dry-extract"
   },
   {
     title: "Garcinia Combogia Dry Extract",
-    image: "src/assets/Garcinia-Combogia-Dry-Extract.jpg",
+    image: "/assets/Garcinia-Combogia-Dry-Extract.jpg",
     description: "We are one the leading manufacturers and suppliers of Garcinia combogia dry extract. The uses of Garcinia are...",
     href: "/products/garcinia-combogia-dry-extract"
   },
   {
     title: "Shilajit Dry Extract",
-    image: "/src/assets/Shilajit-Dry-Extract.jpg",
+    image: "/assets/Shilajit-Dry-Extract.jpg",
     description: "Shilajit is one of the important herbs in Indonesia Ayurved to cure various diseases. We have establised ourself as...",
     href: "/products/shilajit-dry-extract"
   },
   {
     title: "Safed Musli Dry Extract",
-    image: "src/assets/Safed-Musli-Dry-Extract.jpg",
+    image: "/assets/Safed-Musli-Dry-Extract.jpg",
     description: "We are manufacturer and supplier of Safed Musli dry extract in India. Safed musli dry extract is found effective...",
     href: "/products/safed-musli-dry-extract"
   },
   {
     title: "Morinda Extract / Noni Extract",
-    image: "src/assets/Morinda-Extract.jpg",
+    image: "/assets/Morinda-Extract.jpg",
     description: "We one of the reputed name of Morinda Extract Supplier and manufacturer in Indonesia. Morinda extract or Noni Extract ...",
     href: "/products/morinda-extract"
   }
