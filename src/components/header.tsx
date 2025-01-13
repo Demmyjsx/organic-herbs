@@ -5,7 +5,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { cn } from "@/lib/utils"
 import { Menu } from 'lucide-react'
 import {Link, NavLink} from "react-router-dom"
-import Logo from "../assets/logo.png"
+import Logo from "public/assets/logo.png"
 
 export function Header() {
   //const [isOpen, setIsOpen] = useState(false)

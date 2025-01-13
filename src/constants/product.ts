@@ -15,7 +15,7 @@ export const products = [
     description: "Natural herbal extract"
   },
   {
-    image: "src/assets/Vijasar-Dry-Extract.jpg",
+    image: "/assets/Vijasar-Dry-Extract.jpg",
     title: "Vijasar Dry Extract",
     description: "Natural herbal extract"
   },

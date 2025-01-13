@@ -1,4 +1,4 @@
-import HeroPlant from "../assets/6.jpg"
+import HeroPlant from "public/assets/6.jpg"
 export function AboutHero() {
     return (
       <div className="relative h-[400px] overflow-hidden">

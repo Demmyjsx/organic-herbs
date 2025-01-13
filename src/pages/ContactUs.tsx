@@ -1,6 +1,6 @@
 import { ContactForm } from "@/components/Companyform"
 import { CompanyInfo } from "@/components/CompanyInfo"
-import Broad from "../assets/6.jpg"
+import Broad from "public/assets/6.jpg"
 export default function ContactPage() {
   return (
     <div className="min-h-screen">

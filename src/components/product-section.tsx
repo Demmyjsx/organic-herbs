@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Card, CardContent } from "@/components/ui/card"
-import  Aswagha from "../assets/Aswagandha-Extract.jpg"
-import  Curcumin_Dry_Extract from "../assets/Curcumin-Dry-Extract.jpg"
+import  Aswagha from "public/assets/Aswagandha-Extract.jpg"
+import  Curcumin_Dry_Extract from "public/assets/Curcumin-Dry-Extract.jpg"
 
 const productLinks = [
   { name: "Aswagandha Extract", href: "/products/aswagandha-extract" },
