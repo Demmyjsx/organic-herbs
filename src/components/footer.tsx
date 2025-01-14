@@ -99,7 +99,7 @@ export function Footer() {
           </div>
 
           {/* Contact Section */}
-          <div>
+          {/* <div> 
             <h3 className="text-xl font-bold mb-4 text-white border-l-4 border-[#2E7D32] pl-4">
               CONTACT US
             </h3>
@@ -125,7 +125,7 @@ export function Footer() {
                 </Link>
               </p>
             </div>
-          </div>
+          {/* </div> */}
         </div>
       </div>
       <div className="border-t border-gray-700">
