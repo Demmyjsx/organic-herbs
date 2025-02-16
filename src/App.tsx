@@ -1,24 +1,24 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
-import { Layout } from "./components/Layouts"
-import { Home } from "./pages/Home"
-// import { Skills } from "./pages/Skills"
-import { Projects } from "./pages/Projects"
-import { Certifications } from "./pages/Certifications"
-import { Contact } from "./pages/Contact"
 
-export function App() {
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import AboutPage from "./pages/AboutUs";
+import Nopage from "./pages/Nopage";
+import ContactPage from "./pages/ContactUs";
+import OtherProducts from "./pages/OtherProducts";
+
+
+export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          {/* <Route path="skills" element={<Skills />} /> */}
-          <Route path="projects" element={<Projects />} />
-          <Route path="certifications" element={<Certifications />} />
-          <Route path="contact" element={<Contact />} />
-        </Route>
+        <Route path="/" element={<Home />}/>
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/otherproducts" element={<OtherProducts />} />
+          <Route path="*" element={<Nopage />} />
+
+ 
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
-
