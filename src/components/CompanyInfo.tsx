@@ -8,19 +8,19 @@ export function CompanyInfo() {
           <p>
             <span className="font-medium">Address:</span> FVX9+7GQ, Unnamed Road, East Kombos, Singkil, Manado City, North Sulawesi, Indonesia
           </p>
-          <p>
+        { /* <p>
             <span className="font-medium">Phone:</span> +62-83872929468
-          </p>
+          </p>*/}
           <p>
             <span className="font-medium">Office time:</span> 8:00am to 7:00pm
           </p>
           <div className="space-y-1">
             <p>
-              <span className="font-medium">Email:</span> info@organicosherbalfarm.com
+              <span className="font-medium">Email:</span> info@organicosherbal.com
             </p>
-            <p>
+           {/* <p>
               <span className="font-medium">Email:</span> sales@organicosherbalfarm.com
-            </p>
+            </p>*/}
           </div>
         </div>
       </div>
